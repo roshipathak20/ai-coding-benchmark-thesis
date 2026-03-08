@@ -1,0 +1,17 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Fix the broken function shown below.
+
+Requirements:
+- Keep function name: parse_int_list(text)
+- Input is a comma-separated string
+- Ignore invalid items and surrounding spaces
+- Return a list of integers
+- Use type hints
+- Include a main() example
+
+Broken code:
+def parse_int_list(text):
+    return [int(x) for x in text.split(",")]

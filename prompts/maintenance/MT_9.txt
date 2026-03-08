@@ -1,0 +1,16 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Fix the broken function shown below.
+
+Requirements:
+- Keep function name: sort_by_age(records)
+- Sort ascending by the 'age' field
+- Return a new sorted list
+- Use type hints
+- Include a main() example
+
+Broken code:
+def sort_by_age(records):
+    return sorted(records, key=lambda x: x["name"])

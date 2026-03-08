@@ -1,0 +1,10 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a Python function missing_number(nums: list[int]) -> int.
+
+Requirements:
+- Return the missing number in range 0..n
+- Use type hints
+- Include a main() example

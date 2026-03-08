@@ -1,0 +1,11 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a Python function fibonacci(n: int) -> int.
+
+Requirements:
+- Return the nth Fibonacci number
+- Example: fibonacci(6) == 8
+- Use type hints
+- Include a main() example

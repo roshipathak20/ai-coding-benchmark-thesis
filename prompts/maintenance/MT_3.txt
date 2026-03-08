@@ -1,0 +1,15 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Fix the broken function shown below.
+
+Requirements:
+- Keep function name: unique_preserve_order(items)
+- Remove duplicates while preserving original order
+- Use type hints
+- Include a main() example
+
+Broken code:
+def unique_preserve_order(items):
+    return list(set(items))

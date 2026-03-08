@@ -1,0 +1,11 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a function extract_usernames(data) that extracts usernames from JSON-like data.
+
+Example input:
+{"users":[{"username":"alice"},{"username":"bob"}]}
+
+Expected output:
+["alice","bob"]

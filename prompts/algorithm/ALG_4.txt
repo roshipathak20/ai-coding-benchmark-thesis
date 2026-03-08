@@ -1,0 +1,10 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a Python function max_subarray(nums: list[int]) -> int.
+
+Requirements:
+- Return the maximum sum of a contiguous subarray
+- Use type hints
+- Include a main() example

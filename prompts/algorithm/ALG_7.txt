@@ -1,0 +1,10 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a Python function merge_intervals(intervals: list[list[int]]) -> list[list[int]].
+
+Requirements:
+- Merge overlapping intervals
+- Use type hints
+- Include a main() example

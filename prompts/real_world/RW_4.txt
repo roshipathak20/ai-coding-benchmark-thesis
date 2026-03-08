@@ -1,0 +1,7 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a function fetch_titles(url) that uses requests to fetch JSON and returns a list of title fields.
+- Raise for bad status
+- Use timeout=10

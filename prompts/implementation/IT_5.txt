@@ -1,0 +1,12 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Merge two sorted lists.
+
+Requirements:
+- Function name: merge_sorted_lists(a, b)
+- Return a new sorted list
+- Do not use sort() on the final combined list
+- Use type hints
+- Include a main() example

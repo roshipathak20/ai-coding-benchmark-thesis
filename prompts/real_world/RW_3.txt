@@ -1,0 +1,5 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Create a Flask app with endpoint /status that returns JSON {"status":"ok"}.

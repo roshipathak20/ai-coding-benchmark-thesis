@@ -1,0 +1,22 @@
+task,category,model,attempts,time_seconds,result,hallucination,code_quality,notes
+IT_1,implementation,ChatGPT,1,7.50,pass,no,good,all tests passed
+IT_2,implementation,ChatGPT,1,6.00,pass,no,good,all tests passed
+IT_3,implementation,ChatGPT,1,4.00,pass,no,good,all tests passed
+IT_4,implementation,ChatGPT,1,5.00,pass,no,good,all tests passed
+IT_5,implementation,ChatGPT,1,5.45,pass,no,good,all tests passed
+IT_6,implementation,ChatGPT,1,6.40,pass,no,moderate,all tests passed
+IT_7,implementation,ChatGPT,1,3.88,fail,no,moderate,pytest failure
+IT_8,implementation,ChatGPT,1,4.12,pass,no,good,all tests passed
+IT_9,implementation,ChatGPT,1,5.53,pass,no,good,all tests passed
+IT_10,implementation,ChatGPT,1,7.76,pass,no,good,all tests passed
+
+MT_1,maintenance,ChatGPT,1,5.43,pass,no,good,bug fixed successfully
+MT_2,maintenance,ChatGPT,1,3.86,pass,no,good,bug fixed successfully
+MT_3,maintenance,ChatGPT,1,5.00,pass,no,good,bug fixed successfully
+MT_4,maintenance,ChatGPT,1,3.70,pass,no,good,bug fixed successfully
+MT_5,maintenance,ChatGPT,1,6.65,pass,no,good,bug fixed successfully
+MT_6,maintenance,ChatGPT,1,5.96,pass,no,good,bug fixed successfully
+MT_7,maintenance,ChatGPT,1,4.68,pass,no,good,bug fixed successfully
+MT_8,maintenance,ChatGPT,1,4.32,pass,no,good,bug fixed successfully
+MT_9,maintenance,ChatGPT,1,4.96,pass,no,good,bug fixed successfully
+MT_10,maintenance,ChatGPT,1,4.41,pass,no,good,bug fixed successfully

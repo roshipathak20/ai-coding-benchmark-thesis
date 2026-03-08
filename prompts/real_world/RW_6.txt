@@ -1,0 +1,5 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a function csv_column_averages(file_path) that reads a CSV file and returns average values of numeric columns.

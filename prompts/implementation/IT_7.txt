@@ -1,0 +1,13 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Fetch JSON data from a URL using requests.
+
+Requirements:
+- Function name: fetch_json(url)
+- Use requests.get
+- Return the parsed JSON object
+- Raise for bad HTTP status
+- Use type hints
+- Include a main() example

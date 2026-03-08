@@ -1,0 +1,11 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Using pandas, create a function total_sales_per_product(df) that returns total sales grouped by product.
+
+Requirements:
+- Input dataframe has columns: product, amount
+- Return a dataframe with total amount per product
+- Use type hints if appropriate
+- Include a main() example

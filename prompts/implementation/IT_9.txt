@@ -1,0 +1,13 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Extract the title from an HTML string using BeautifulSoup.
+
+Requirements:
+- Function name: extract_title(html)
+- Return the title text as a string
+- Return an empty string if no title exists
+- Use bs4.BeautifulSoup
+- Use type hints
+- Include a main() example

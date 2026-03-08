@@ -1,0 +1,11 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a Python function is_balanced(s: str) -> bool.
+
+Requirements:
+- Return True if parentheses are balanced
+- Example: "(())" -> True, "(()" -> False
+- Use type hints
+- Include a main() example

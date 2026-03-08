@@ -1,0 +1,5 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a function validate_email(email: str) -> bool using regex.

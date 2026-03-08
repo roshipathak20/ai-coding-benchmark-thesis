@@ -1,0 +1,10 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a Python function is_prime(n: int) -> bool.
+
+Requirements:
+- Return True if n is prime, otherwise False
+- Use type hints
+- Include a main() example

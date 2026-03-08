@@ -1,0 +1,16 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Fix the broken function shown below.
+
+Requirements:
+- Keep function name: average(values)
+- Return 0 for an empty list
+- Otherwise return the average
+- Use type hints
+- Include a main() example
+
+Broken code:
+def average(values):
+    return sum(values) / len(values)

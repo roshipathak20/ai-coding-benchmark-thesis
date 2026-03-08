@@ -1,0 +1,2 @@
+def sort_by_age(records):
+    return sorted(records, key=lambda x: x["name"])

@@ -1,0 +1,5 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Modify a divide function so that errors are logged using Python logging instead of print.

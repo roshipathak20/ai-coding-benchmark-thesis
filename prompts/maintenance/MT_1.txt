@@ -1,0 +1,16 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Fix the broken function shown below.
+
+Requirements:
+- Keep function name: safe_divide(a, b)
+- Return None when b is zero
+- Otherwise return the division result
+- Use type hints
+- Include a main() example
+
+Broken code:
+def safe_divide(a, b):
+    return a / b

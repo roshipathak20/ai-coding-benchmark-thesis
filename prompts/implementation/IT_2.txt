@@ -1,0 +1,12 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Determine if a string is a palindrome.
+
+Requirements:
+- Function name: is_palindrome(text)
+- Ignore spaces and capitalization
+- Return True or False
+- Use type hints
+- Include a main() example

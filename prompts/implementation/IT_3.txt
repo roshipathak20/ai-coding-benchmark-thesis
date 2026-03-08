@@ -1,0 +1,12 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Solve the Two Sum problem.
+
+Requirements:
+- Function name: two_sum(nums, target)
+- Return a tuple of indices of the two numbers that add up to target
+- Return None if no solution exists
+- Use type hints
+- Include a main() example

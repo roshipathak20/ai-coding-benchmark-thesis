@@ -1,0 +1,19 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Fix the broken function shown below.
+
+Requirements:
+- Keep function name: factorial(n)
+- Raise ValueError for negative input
+- Return 1 for 0
+- Use type hints
+- Include a main() example
+
+Broken code:
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result

@@ -1,0 +1,17 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Fix the broken function shown below.
+
+Requirements:
+- Keep function name: has_extension(filename, extension)
+- Support filenames with multiple dots
+- Return False if there is no extension
+- Comparison should be case-insensitive
+- Use type hints
+- Include a main() example
+
+Broken code:
+def has_extension(filename, extension):
+    return filename.split(".")[1] == extension

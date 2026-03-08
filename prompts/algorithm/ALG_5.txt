@@ -1,0 +1,11 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a Python function reverse_words(text: str) -> str.
+
+Requirements:
+- Reverse the order of words
+- Example: "hello world" -> "world hello"
+- Use type hints
+- Include a main() example

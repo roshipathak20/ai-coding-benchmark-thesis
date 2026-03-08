@@ -1,0 +1,10 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write pytest tests for the following function:
+
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)

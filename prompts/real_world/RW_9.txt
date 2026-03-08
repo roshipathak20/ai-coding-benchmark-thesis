@@ -1,0 +1,10 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY SQL, no explanation.
+
+Task: Write an SQL query that returns total purchase amount per customer from:
+customers(id, name)
+orders(id, customer_id, amount)
+
+Output columns:
+customer_name, total_spent

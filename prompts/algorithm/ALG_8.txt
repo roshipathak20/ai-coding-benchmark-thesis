@@ -1,0 +1,10 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a Python function longest_word(words: list[str]) -> str.
+
+Requirements:
+- Return the longest word
+- Use type hints
+- Include a main() example

@@ -1,0 +1,7 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a function top_words(file_path) that reads a text file and returns the 10 most frequent words.
+- Ignore punctuation
+- Ignore case

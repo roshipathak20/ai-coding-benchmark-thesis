@@ -1,0 +1,10 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a Python function find_duplicate(nums: list[int]) -> int.
+
+Requirements:
+- Return the duplicated number
+- Use type hints
+- Include a main() example

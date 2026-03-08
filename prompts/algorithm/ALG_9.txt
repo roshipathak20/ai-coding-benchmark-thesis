@@ -1,0 +1,11 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Write a Python function is_anagram(a: str, b: str) -> bool.
+
+Requirements:
+- Return True if the strings are anagrams
+- Ignore spaces and case
+- Use type hints
+- Include a main() example

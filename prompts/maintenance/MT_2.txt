@@ -1,0 +1,17 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Fix the broken function shown below.
+
+Requirements:
+- Keep function name: is_even(n)
+- Return True only for even numbers
+- Use type hints
+- Include a main() example
+
+Broken code:
+def is_even(n):
+    if n % 2 == 1:
+        return True
+    return False

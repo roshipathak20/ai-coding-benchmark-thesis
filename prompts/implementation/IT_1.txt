@@ -1,0 +1,14 @@
+You are assisting in a controlled AI coding experiment.
+
+Return ONLY Python code.
+
+Task: Implement binary search.
+
+Requirements:
+- Function name: binary_search(arr, target)
+- Input: sorted list of integers
+- Return the index if target is found
+- Return -1 if target is not found
+- Do not use built-in search methods
+- Use type hints
+- Include a main() example
