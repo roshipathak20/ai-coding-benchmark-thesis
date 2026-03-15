@@ -1,47 +1,92 @@
-AI Coding Benchmark Thesis
+# AI Coding Benchmark Thesis
 
 This repository contains the benchmark implementation and experiment artifacts used in the Bachelor thesis:
 
-“AI in Software Development: Benefits vs Risks”
-Centria University of Applied Sciences
-Bachelor of Information Technology Engineering
-Authors: Roshani Pathak, Sushil Poudel
-Year: 2026
+**AI in Software Development: Benefits vs Risks**  
+Centria University of Applied Sciences  
+Bachelor of Information Technology Engineering  
+Authors: **Roshani Pathak** and **Sushil Poudel**  
+Year: **2026**
 
-The repository supports the empirical evaluation described in Chapter 4 of the thesis, where AI-assisted coding performance is evaluated across different software development tasks.
+This repository supports the empirical evaluation described in the thesis, especially the benchmark-based analysis of AI-assisted software development tasks.
 
-Repository Purpose
+---
 
-The goal of this benchmark is to evaluate how an AI coding assistant performs in practical software development tasks.
-The experiment focuses on measuring:
+## Repository Purpose
 
-Functional correctness
+The purpose of this repository is to provide a structured benchmark for evaluating how an AI coding assistant performs in realistic software development tasks.
 
-Task completion time
+The benchmark was designed to examine both the **benefits** and **risks** of AI-assisted software development. The evaluation focuses on areas such as:
 
-Number of attempts
+- functional correctness
+- number of attempts required
+- task completion time
+- hallucination occurrence
+- code quality
+- patch reliability in maintenance tasks
 
-Hallucination occurrence
+The repository also supports **transparency** and **reproducibility** by preserving prompts, source files, tests, results, and screenshots from the experiment.
 
-Code quality observations
+---
 
-The benchmark consists of 40 tasks representing different software engineering activities.
+## Benchmark Categories
 
-Benchmark Task Categories
+The benchmark consists of **40 tasks** divided into five categories:
 
-The tasks are divided into the following categories:
+### 1. Algorithmic Tasks (10)
+Structured computational problems used to evaluate logical reasoning and algorithm correctness.
 
-Implementation Tasks (10)
-Generation of new functionality from natural language task descriptions.
+### 2. Implementation Tasks (10)
+Tasks that require generating new functionality from a task description.
 
-Algorithmic Tasks (10)
-Structured computational problems that evaluate logical reasoning and algorithm correctness.
+### 3. Maintenance Tasks (10)
+Tasks that require fixing or modifying existing faulty code.
 
-Maintenance Tasks (10)
-Bug fixing and modification of existing source code.
+### 4. Library and API Usage Tasks (5)
+Tasks that evaluate the correct use of common Python libraries and APIs.
 
-Library / API Usage Tasks (5)
-Integration of external libraries such as requests, pandas, or json.
+### 5. Code Refactoring Tasks (5)
+Tasks that improve code readability and structure without changing behaviour.
 
-Code Refactoring Tasks (5)
-Improving code readability and structure without changing functionality.
+---
+
+## Repository Structure
+
+```text
+ai-coding-benchmark-thesis/
+│
+├── docs/
+│   Supporting documentation related to the benchmark and thesis
+│
+├── maintenance_sources/
+│   Existing faulty or incomplete source files used in maintenance tasks
+│
+├── prompts/
+│   Natural language prompts used during the benchmark experiment
+│
+├── results/
+│   Benchmark result files, logs, and recorded outcomes
+│
+├── screenshots/
+│   Screenshots of prompts, generated code, and pytest runs
+│
+├── solutions/
+│   AI-generated or completed solution files for benchmark tasks
+│
+├── tasks/
+│   Task descriptions and benchmark task definitions
+│
+├── tests/
+│   Automated pytest files used for validation
+│
+├── .gitignore
+│   Git ignore configuration
+│
+├── README.md
+│   Repository overview and documentation
+│
+├── bootstrap_phase2.py
+│   Script used to create the Phase 2 benchmark structure
+│
+└── bootstrap_phase2_extra.py
+    Additional script used to extend the benchmark structure
