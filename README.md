@@ -1,25 +1,47 @@
-# AI Coding Benchmark Thesis
+AI Coding Benchmark Thesis
 
-This repository contains the Phase 2 experiment benchmark for evaluating AI-assisted software development.
+This repository contains the benchmark implementation and experiment artifacts used in the Bachelor thesis:
 
-## Categories
-- 10 implementation tasks
-- 10 maintenance tasks
+“AI in Software Development: Benefits vs Risks”
+Centria University of Applied Sciences
+Bachelor of Information Technology Engineering
+Authors: Roshani Pathak, Sushil Poudel
+Year: 2026
 
-## Workflow per task
-1. Open the prompt file
-2. Paste the prompt into ChatGPT
-3. Save the raw AI response in ai_outputs/
-4. Paste the generated code into solutions/
-5. Run the corresponding pytest file
-6. Take screenshots
-7. Record the result in results/results.csv
+The repository supports the empirical evaluation described in Chapter 4 of the thesis, where AI-assisted coding performance is evaluated across different software development tasks.
 
-## Screenshot policy
-For each task, save:
-- one screenshot of prompt/AI answer
-- one screenshot of code in VS Code
-- one screenshot of pytest result
+Repository Purpose
 
-## Main command
-pytest tests/test_IT_1.py -q
+The goal of this benchmark is to evaluate how an AI coding assistant performs in practical software development tasks.
+The experiment focuses on measuring:
+
+Functional correctness
+
+Task completion time
+
+Number of attempts
+
+Hallucination occurrence
+
+Code quality observations
+
+The benchmark consists of 40 tasks representing different software engineering activities.
+
+Benchmark Task Categories
+
+The tasks are divided into the following categories:
+
+Implementation Tasks (10)
+Generation of new functionality from natural language task descriptions.
+
+Algorithmic Tasks (10)
+Structured computational problems that evaluate logical reasoning and algorithm correctness.
+
+Maintenance Tasks (10)
+Bug fixing and modification of existing source code.
+
+Library / API Usage Tasks (5)
+Integration of external libraries such as requests, pandas, or json.
+
+Code Refactoring Tasks (5)
+Improving code readability and structure without changing functionality.
